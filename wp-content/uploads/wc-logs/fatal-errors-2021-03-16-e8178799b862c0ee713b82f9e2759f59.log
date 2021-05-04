@@ -1,0 +1,468 @@
+2021-03-16T08:47:40+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php:102
+Stack trace:
+#0 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php(102): method_exists(NULL, 'getName')
+#1 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php(80): UxBuilder\Services\Container->create_with_contructor(Object(ReflectionClass))
+#2 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Application.php(55): UxBuilder\Services\Container->create('UxBuilder\\Trans...')
+#3 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php(43): UxBuilder\Application->UxBuilder\{closure}(Object(UxBuilder\Services\Container))
+#4 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Application.php(94): UxBuilder\Services\Container->resolve('to-string')
+#5 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\ux-builder.php(42): UxBuilder\Application->resolve('to-string')
+#6 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\DoShortcode.php(28): ux_builder('to-string')
+#7 C:\xampp\htdocs\vitutomedia\wp-includes\class-wp-hook.php(292): UxBuilder\Ajax\DoShortcode->do_shortcode('')
+#8 C:\xampp\htdocs\vitutomedia\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#9 C:\xampp\htdocs\vitutomedia\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\vitutomedia\wp-includes\template-loader.php(13): do_action('template_redire...')
+#11 C:\xampp\htdocs\vitutomedia\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\vitutomedia\index.php(17): require('C:\\xampp\\htdocs...')
+#13 {main}
+  thrown in C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php on line 102
+
+2021-03-16T08:47:40+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php:102
+Stack trace:
+#0 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php(102): method_exists(NULL, 'getName')
+#1 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php(80): UxBuilder\Services\Container->create_with_contructor(Object(ReflectionClass))
+#2 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Application.php(55): UxBuilder\Services\Container->create('UxBuilder\\Trans...')
+#3 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php(43): UxBuilder\Application->UxBuilder\{closure}(Object(UxBuilder\Services\Container))
+#4 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Application.php(94): UxBuilder\Services\Container->resolve('to-string')
+#5 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\ux-builder.php(42): UxBuilder\Application->resolve('to-string')
+#6 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\DoShortcode.php(28): ux_builder('to-string')
+#7 C:\xampp\htdocs\vitutomedia\wp-includes\class-wp-hook.php(292): UxBuilder\Ajax\DoShortcode->do_shortcode('')
+#8 C:\xampp\htdocs\vitutomedia\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#9 C:\xampp\htdocs\vitutomedia\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\vitutomedia\wp-includes\template-loader.php(13): do_action('template_redire...')
+#11 C:\xampp\htdocs\vitutomedia\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\vitutomedia\index.php(17): require('C:\\xampp\\htdocs...')
+#13 {main}
+  thrown in C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php on line 102
+
+2021-03-16T08:47:41+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php:102
+Stack trace:
+#0 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php(102): method_exists(NULL, 'getName')
+#1 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php(80): UxBuilder\Services\Container->create_with_contructor(Object(ReflectionClass))
+#2 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Application.php(55): UxBuilder\Services\Container->create('UxBuilder\\Trans...')
+#3 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php(43): UxBuilder\Application->UxBuilder\{closure}(Object(UxBuilder\Services\Container))
+#4 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Application.php(94): UxBuilder\Services\Container->resolve('to-string')
+#5 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\ux-builder.php(42): UxBuilder\Application->resolve('to-string')
+#6 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\DoShortcode.php(28): ux_builder('to-string')
+#7 C:\xampp\htdocs\vitutomedia\wp-includes\class-wp-hook.php(292): UxBuilder\Ajax\DoShortcode->do_shortcode('')
+#8 C:\xampp\htdocs\vitutomedia\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#9 C:\xampp\htdocs\vitutomedia\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\vitutomedia\wp-includes\template-loader.php(13): do_action('template_redire...')
+#11 C:\xampp\htdocs\vitutomedia\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\vitutomedia\index.php(17): require('C:\\xampp\\htdocs...')
+#13 {main}
+  thrown in C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php on line 102
+
+2021-03-16T08:47:41+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php:102
+Stack trace:
+#0 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php(102): method_exists(NULL, 'getName')
+#1 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php(80): UxBuilder\Services\Container->create_with_contructor(Object(ReflectionClass))
+#2 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Application.php(55): UxBuilder\Services\Container->create('UxBuilder\\Trans...')
+#3 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php(43): UxBuilder\Application->UxBuilder\{closure}(Object(UxBuilder\Services\Container))
+#4 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Application.php(94): UxBuilder\Services\Container->resolve('to-string')
+#5 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\ux-builder.php(42): UxBuilder\Application->resolve('to-string')
+#6 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\DoShortcode.php(28): ux_builder('to-string')
+#7 C:\xampp\htdocs\vitutomedia\wp-includes\class-wp-hook.php(292): UxBuilder\Ajax\DoShortcode->do_shortcode('')
+#8 C:\xampp\htdocs\vitutomedia\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#9 C:\xampp\htdocs\vitutomedia\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\vitutomedia\wp-includes\template-loader.php(13): do_action('template_redire...')
+#11 C:\xampp\htdocs\vitutomedia\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\vitutomedia\index.php(17): require('C:\\xampp\\htdocs...')
+#13 {main}
+  thrown in C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php on line 102
+
+2021-03-16T08:47:42+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php:102
+Stack trace:
+#0 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php(102): method_exists(NULL, 'getName')
+#1 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php(80): UxBuilder\Services\Container->create_with_contructor(Object(ReflectionClass))
+#2 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Application.php(55): UxBuilder\Services\Container->create('UxBuilder\\Trans...')
+#3 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php(43): UxBuilder\Application->UxBuilder\{closure}(Object(UxBuilder\Services\Container))
+#4 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Application.php(94): UxBuilder\Services\Container->resolve('to-string')
+#5 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\ux-builder.php(42): UxBuilder\Application->resolve('to-string')
+#6 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\DoShortcode.php(28): ux_builder('to-string')
+#7 C:\xampp\htdocs\vitutomedia\wp-includes\class-wp-hook.php(292): UxBuilder\Ajax\DoShortcode->do_shortcode('')
+#8 C:\xampp\htdocs\vitutomedia\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#9 C:\xampp\htdocs\vitutomedia\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\vitutomedia\wp-includes\template-loader.php(13): do_action('template_redire...')
+#11 C:\xampp\htdocs\vitutomedia\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\vitutomedia\index.php(17): require('C:\\xampp\\htdocs...')
+#13 {main}
+  thrown in C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php on line 102
+
+2021-03-16T08:47:42+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php:102
+Stack trace:
+#0 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php(102): method_exists(NULL, 'getName')
+#1 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php(80): UxBuilder\Services\Container->create_with_contructor(Object(ReflectionClass))
+#2 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Application.php(55): UxBuilder\Services\Container->create('UxBuilder\\Trans...')
+#3 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php(43): UxBuilder\Application->UxBuilder\{closure}(Object(UxBuilder\Services\Container))
+#4 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Application.php(94): UxBuilder\Services\Container->resolve('to-string')
+#5 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\ux-builder.php(42): UxBuilder\Application->resolve('to-string')
+#6 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\DoShortcode.php(28): ux_builder('to-string')
+#7 C:\xampp\htdocs\vitutomedia\wp-includes\class-wp-hook.php(292): UxBuilder\Ajax\DoShortcode->do_shortcode('')
+#8 C:\xampp\htdocs\vitutomedia\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#9 C:\xampp\htdocs\vitutomedia\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\vitutomedia\wp-includes\template-loader.php(13): do_action('template_redire...')
+#11 C:\xampp\htdocs\vitutomedia\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\vitutomedia\index.php(17): require('C:\\xampp\\htdocs...')
+#13 {main}
+  thrown in C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php on line 102
+
+2021-03-16T08:47:44+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php:102
+Stack trace:
+#0 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php(102): method_exists(NULL, 'getName')
+#1 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php(80): UxBuilder\Services\Container->create_with_contructor(Object(ReflectionClass))
+#2 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Application.php(55): UxBuilder\Services\Container->create('UxBuilder\\Trans...')
+#3 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php(43): UxBuilder\Application->UxBuilder\{closure}(Object(UxBuilder\Services\Container))
+#4 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Application.php(94): UxBuilder\Services\Container->resolve('to-string')
+#5 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\ux-builder.php(42): UxBuilder\Application->resolve('to-string')
+#6 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\DoShortcode.php(28): ux_builder('to-string')
+#7 C:\xampp\htdocs\vitutomedia\wp-includes\class-wp-hook.php(292): UxBuilder\Ajax\DoShortcode->do_shortcode('')
+#8 C:\xampp\htdocs\vitutomedia\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#9 C:\xampp\htdocs\vitutomedia\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\vitutomedia\wp-includes\template-loader.php(13): do_action('template_redire...')
+#11 C:\xampp\htdocs\vitutomedia\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\vitutomedia\index.php(17): require('C:\\xampp\\htdocs...')
+#13 {main}
+  thrown in C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php on line 102
+
+2021-03-16T08:47:44+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php:102
+Stack trace:
+#0 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php(102): method_exists(NULL, 'getName')
+#1 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php(80): UxBuilder\Services\Container->create_with_contructor(Object(ReflectionClass))
+#2 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Application.php(55): UxBuilder\Services\Container->create('UxBuilder\\Trans...')
+#3 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php(43): UxBuilder\Application->UxBuilder\{closure}(Object(UxBuilder\Services\Container))
+#4 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Application.php(94): UxBuilder\Services\Container->resolve('to-string')
+#5 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\ux-builder.php(42): UxBuilder\Application->resolve('to-string')
+#6 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\DoShortcode.php(28): ux_builder('to-string')
+#7 C:\xampp\htdocs\vitutomedia\wp-includes\class-wp-hook.php(292): UxBuilder\Ajax\DoShortcode->do_shortcode('')
+#8 C:\xampp\htdocs\vitutomedia\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#9 C:\xampp\htdocs\vitutomedia\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\vitutomedia\wp-includes\template-loader.php(13): do_action('template_redire...')
+#11 C:\xampp\htdocs\vitutomedia\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\vitutomedia\index.php(17): require('C:\\xampp\\htdocs...')
+#13 {main}
+  thrown in C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php on line 102
+
+2021-03-16T08:47:44+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php:102
+Stack trace:
+#0 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php(102): method_exists(NULL, 'getName')
+#1 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php(80): UxBuilder\Services\Container->create_with_contructor(Object(ReflectionClass))
+#2 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Application.php(55): UxBuilder\Services\Container->create('UxBuilder\\Trans...')
+#3 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php(43): UxBuilder\Application->UxBuilder\{closure}(Object(UxBuilder\Services\Container))
+#4 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Application.php(94): UxBuilder\Services\Container->resolve('to-string')
+#5 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\ux-builder.php(42): UxBuilder\Application->resolve('to-string')
+#6 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\DoShortcode.php(28): ux_builder('to-string')
+#7 C:\xampp\htdocs\vitutomedia\wp-includes\class-wp-hook.php(292): UxBuilder\Ajax\DoShortcode->do_shortcode('')
+#8 C:\xampp\htdocs\vitutomedia\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#9 C:\xampp\htdocs\vitutomedia\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\vitutomedia\wp-includes\template-loader.php(13): do_action('template_redire...')
+#11 C:\xampp\htdocs\vitutomedia\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\vitutomedia\index.php(17): require('C:\\xampp\\htdocs...')
+#13 {main}
+  thrown in C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php on line 102
+
+2021-03-16T08:47:45+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php:102
+Stack trace:
+#0 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php(102): method_exists(NULL, 'getName')
+#1 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php(80): UxBuilder\Services\Container->create_with_contructor(Object(ReflectionClass))
+#2 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Application.php(55): UxBuilder\Services\Container->create('UxBuilder\\Trans...')
+#3 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php(43): UxBuilder\Application->UxBuilder\{closure}(Object(UxBuilder\Services\Container))
+#4 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Application.php(94): UxBuilder\Services\Container->resolve('to-string')
+#5 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\ux-builder.php(42): UxBuilder\Application->resolve('to-string')
+#6 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\DoShortcode.php(28): ux_builder('to-string')
+#7 C:\xampp\htdocs\vitutomedia\wp-includes\class-wp-hook.php(292): UxBuilder\Ajax\DoShortcode->do_shortcode('')
+#8 C:\xampp\htdocs\vitutomedia\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#9 C:\xampp\htdocs\vitutomedia\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\vitutomedia\wp-includes\template-loader.php(13): do_action('template_redire...')
+#11 C:\xampp\htdocs\vitutomedia\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\vitutomedia\index.php(17): require('C:\\xampp\\htdocs...')
+#13 {main}
+  thrown in C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php on line 102
+
+2021-03-16T08:47:46+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php:102
+Stack trace:
+#0 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php(102): method_exists(NULL, 'getName')
+#1 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php(80): UxBuilder\Services\Container->create_with_contructor(Object(ReflectionClass))
+#2 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Application.php(55): UxBuilder\Services\Container->create('UxBuilder\\Trans...')
+#3 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php(43): UxBuilder\Application->UxBuilder\{closure}(Object(UxBuilder\Services\Container))
+#4 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Application.php(94): UxBuilder\Services\Container->resolve('to-string')
+#5 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\ux-builder.php(42): UxBuilder\Application->resolve('to-string')
+#6 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\DoShortcode.php(28): ux_builder('to-string')
+#7 C:\xampp\htdocs\vitutomedia\wp-includes\class-wp-hook.php(292): UxBuilder\Ajax\DoShortcode->do_shortcode('')
+#8 C:\xampp\htdocs\vitutomedia\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#9 C:\xampp\htdocs\vitutomedia\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\vitutomedia\wp-includes\template-loader.php(13): do_action('template_redire...')
+#11 C:\xampp\htdocs\vitutomedia\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\vitutomedia\index.php(17): require('C:\\xampp\\htdocs...')
+#13 {main}
+  thrown in C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php on line 102
+
+2021-03-16T08:47:46+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php:102
+Stack trace:
+#0 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php(102): method_exists(NULL, 'getName')
+#1 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php(80): UxBuilder\Services\Container->create_with_contructor(Object(ReflectionClass))
+#2 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Application.php(55): UxBuilder\Services\Container->create('UxBuilder\\Trans...')
+#3 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php(43): UxBuilder\Application->UxBuilder\{closure}(Object(UxBuilder\Services\Container))
+#4 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Application.php(94): UxBuilder\Services\Container->resolve('to-string')
+#5 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\ux-builder.php(42): UxBuilder\Application->resolve('to-string')
+#6 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\DoShortcode.php(28): ux_builder('to-string')
+#7 C:\xampp\htdocs\vitutomedia\wp-includes\class-wp-hook.php(292): UxBuilder\Ajax\DoShortcode->do_shortcode('')
+#8 C:\xampp\htdocs\vitutomedia\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#9 C:\xampp\htdocs\vitutomedia\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\vitutomedia\wp-includes\template-loader.php(13): do_action('template_redire...')
+#11 C:\xampp\htdocs\vitutomedia\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\vitutomedia\index.php(17): require('C:\\xampp\\htdocs...')
+#13 {main}
+  thrown in C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php on line 102
+
+2021-03-16T08:47:47+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php:102
+Stack trace:
+#0 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php(102): method_exists(NULL, 'getName')
+#1 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php(80): UxBuilder\Services\Container->create_with_contructor(Object(ReflectionClass))
+#2 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Application.php(55): UxBuilder\Services\Container->create('UxBuilder\\Trans...')
+#3 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php(43): UxBuilder\Application->UxBuilder\{closure}(Object(UxBuilder\Services\Container))
+#4 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Application.php(94): UxBuilder\Services\Container->resolve('to-string')
+#5 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\ux-builder.php(42): UxBuilder\Application->resolve('to-string')
+#6 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\DoShortcode.php(28): ux_builder('to-string')
+#7 C:\xampp\htdocs\vitutomedia\wp-includes\class-wp-hook.php(292): UxBuilder\Ajax\DoShortcode->do_shortcode('')
+#8 C:\xampp\htdocs\vitutomedia\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#9 C:\xampp\htdocs\vitutomedia\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\vitutomedia\wp-includes\template-loader.php(13): do_action('template_redire...')
+#11 C:\xampp\htdocs\vitutomedia\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\vitutomedia\index.php(17): require('C:\\xampp\\htdocs...')
+#13 {main}
+  thrown in C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php on line 102
+
+2021-03-16T08:49:16+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php:102
+Stack trace:
+#0 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php(102): method_exists(NULL, 'getName')
+#1 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php(80): UxBuilder\Services\Container->create_with_contructor(Object(ReflectionClass))
+#2 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Application.php(55): UxBuilder\Services\Container->create('UxBuilder\\Trans...')
+#3 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php(43): UxBuilder\Application->UxBuilder\{closure}(Object(UxBuilder\Services\Container))
+#4 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Application.php(94): UxBuilder\Services\Container->resolve('to-string')
+#5 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\ux-builder.php(42): UxBuilder\Application->resolve('to-string')
+#6 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\DoShortcode.php(28): ux_builder('to-string')
+#7 C:\xampp\htdocs\vitutomedia\wp-includes\class-wp-hook.php(292): UxBuilder\Ajax\DoShortcode->do_shortcode('')
+#8 C:\xampp\htdocs\vitutomedia\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#9 C:\xampp\htdocs\vitutomedia\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\vitutomedia\wp-includes\template-loader.php(13): do_action('template_redire...')
+#11 C:\xampp\htdocs\vitutomedia\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\vitutomedia\index.php(17): require('C:\\xampp\\htdocs...')
+#13 {main}
+  thrown in C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php on line 102
+
+2021-03-16T08:49:16+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php:102
+Stack trace:
+#0 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php(102): method_exists(NULL, 'getName')
+#1 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php(80): UxBuilder\Services\Container->create_with_contructor(Object(ReflectionClass))
+#2 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Application.php(55): UxBuilder\Services\Container->create('UxBuilder\\Trans...')
+#3 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php(43): UxBuilder\Application->UxBuilder\{closure}(Object(UxBuilder\Services\Container))
+#4 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Application.php(94): UxBuilder\Services\Container->resolve('to-string')
+#5 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\ux-builder.php(42): UxBuilder\Application->resolve('to-string')
+#6 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\DoShortcode.php(28): ux_builder('to-string')
+#7 C:\xampp\htdocs\vitutomedia\wp-includes\class-wp-hook.php(292): UxBuilder\Ajax\DoShortcode->do_shortcode('')
+#8 C:\xampp\htdocs\vitutomedia\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#9 C:\xampp\htdocs\vitutomedia\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\vitutomedia\wp-includes\template-loader.php(13): do_action('template_redire...')
+#11 C:\xampp\htdocs\vitutomedia\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\vitutomedia\index.php(17): require('C:\\xampp\\htdocs...')
+#13 {main}
+  thrown in C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php on line 102
+
+2021-03-16T08:49:16+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php:102
+Stack trace:
+#0 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php(102): method_exists(NULL, 'getName')
+#1 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php(80): UxBuilder\Services\Container->create_with_contructor(Object(ReflectionClass))
+#2 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Application.php(55): UxBuilder\Services\Container->create('UxBuilder\\Trans...')
+#3 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php(43): UxBuilder\Application->UxBuilder\{closure}(Object(UxBuilder\Services\Container))
+#4 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Application.php(94): UxBuilder\Services\Container->resolve('to-string')
+#5 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\ux-builder.php(42): UxBuilder\Application->resolve('to-string')
+#6 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\DoShortcode.php(28): ux_builder('to-string')
+#7 C:\xampp\htdocs\vitutomedia\wp-includes\class-wp-hook.php(292): UxBuilder\Ajax\DoShortcode->do_shortcode('')
+#8 C:\xampp\htdocs\vitutomedia\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#9 C:\xampp\htdocs\vitutomedia\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\vitutomedia\wp-includes\template-loader.php(13): do_action('template_redire...')
+#11 C:\xampp\htdocs\vitutomedia\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\vitutomedia\index.php(17): require('C:\\xampp\\htdocs...')
+#13 {main}
+  thrown in C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php on line 102
+
+2021-03-16T08:49:17+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php:102
+Stack trace:
+#0 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php(102): method_exists(NULL, 'getName')
+#1 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php(80): UxBuilder\Services\Container->create_with_contructor(Object(ReflectionClass))
+#2 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Application.php(55): UxBuilder\Services\Container->create('UxBuilder\\Trans...')
+#3 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php(43): UxBuilder\Application->UxBuilder\{closure}(Object(UxBuilder\Services\Container))
+#4 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Application.php(94): UxBuilder\Services\Container->resolve('to-string')
+#5 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\ux-builder.php(42): UxBuilder\Application->resolve('to-string')
+#6 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\DoShortcode.php(28): ux_builder('to-string')
+#7 C:\xampp\htdocs\vitutomedia\wp-includes\class-wp-hook.php(292): UxBuilder\Ajax\DoShortcode->do_shortcode('')
+#8 C:\xampp\htdocs\vitutomedia\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#9 C:\xampp\htdocs\vitutomedia\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\vitutomedia\wp-includes\template-loader.php(13): do_action('template_redire...')
+#11 C:\xampp\htdocs\vitutomedia\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\vitutomedia\index.php(17): require('C:\\xampp\\htdocs...')
+#13 {main}
+  thrown in C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php on line 102
+
+2021-03-16T08:49:17+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php:102
+Stack trace:
+#0 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php(102): method_exists(NULL, 'getName')
+#1 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php(80): UxBuilder\Services\Container->create_with_contructor(Object(ReflectionClass))
+#2 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Application.php(55): UxBuilder\Services\Container->create('UxBuilder\\Trans...')
+#3 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php(43): UxBuilder\Application->UxBuilder\{closure}(Object(UxBuilder\Services\Container))
+#4 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Application.php(94): UxBuilder\Services\Container->resolve('to-string')
+#5 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\ux-builder.php(42): UxBuilder\Application->resolve('to-string')
+#6 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\DoShortcode.php(28): ux_builder('to-string')
+#7 C:\xampp\htdocs\vitutomedia\wp-includes\class-wp-hook.php(292): UxBuilder\Ajax\DoShortcode->do_shortcode('')
+#8 C:\xampp\htdocs\vitutomedia\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#9 C:\xampp\htdocs\vitutomedia\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\vitutomedia\wp-includes\template-loader.php(13): do_action('template_redire...')
+#11 C:\xampp\htdocs\vitutomedia\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\vitutomedia\index.php(17): require('C:\\xampp\\htdocs...')
+#13 {main}
+  thrown in C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php on line 102
+
+2021-03-16T08:49:20+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php:102
+Stack trace:
+#0 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php(102): method_exists(NULL, 'getName')
+#1 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php(80): UxBuilder\Services\Container->create_with_contructor(Object(ReflectionClass))
+#2 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Application.php(55): UxBuilder\Services\Container->create('UxBuilder\\Trans...')
+#3 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php(43): UxBuilder\Application->UxBuilder\{closure}(Object(UxBuilder\Services\Container))
+#4 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Application.php(94): UxBuilder\Services\Container->resolve('to-string')
+#5 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\ux-builder.php(42): UxBuilder\Application->resolve('to-string')
+#6 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\DoShortcode.php(28): ux_builder('to-string')
+#7 C:\xampp\htdocs\vitutomedia\wp-includes\class-wp-hook.php(292): UxBuilder\Ajax\DoShortcode->do_shortcode('')
+#8 C:\xampp\htdocs\vitutomedia\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#9 C:\xampp\htdocs\vitutomedia\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\vitutomedia\wp-includes\template-loader.php(13): do_action('template_redire...')
+#11 C:\xampp\htdocs\vitutomedia\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\vitutomedia\index.php(17): require('C:\\xampp\\htdocs...')
+#13 {main}
+  thrown in C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php on line 102
+
+2021-03-16T08:49:21+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php:102
+Stack trace:
+#0 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php(102): method_exists(NULL, 'getName')
+#1 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php(80): UxBuilder\Services\Container->create_with_contructor(Object(ReflectionClass))
+#2 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Application.php(55): UxBuilder\Services\Container->create('UxBuilder\\Trans...')
+#3 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php(43): UxBuilder\Application->UxBuilder\{closure}(Object(UxBuilder\Services\Container))
+#4 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Application.php(94): UxBuilder\Services\Container->resolve('to-string')
+#5 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\ux-builder.php(42): UxBuilder\Application->resolve('to-string')
+#6 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\DoShortcode.php(28): ux_builder('to-string')
+#7 C:\xampp\htdocs\vitutomedia\wp-includes\class-wp-hook.php(292): UxBuilder\Ajax\DoShortcode->do_shortcode('')
+#8 C:\xampp\htdocs\vitutomedia\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#9 C:\xampp\htdocs\vitutomedia\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\vitutomedia\wp-includes\template-loader.php(13): do_action('template_redire...')
+#11 C:\xampp\htdocs\vitutomedia\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\vitutomedia\index.php(17): require('C:\\xampp\\htdocs...')
+#13 {main}
+  thrown in C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php on line 102
+
+2021-03-16T08:49:21+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php:102
+Stack trace:
+#0 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php(102): method_exists(NULL, 'getName')
+#1 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php(80): UxBuilder\Services\Container->create_with_contructor(Object(ReflectionClass))
+#2 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Application.php(55): UxBuilder\Services\Container->create('UxBuilder\\Trans...')
+#3 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php(43): UxBuilder\Application->UxBuilder\{closure}(Object(UxBuilder\Services\Container))
+#4 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Application.php(94): UxBuilder\Services\Container->resolve('to-string')
+#5 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\ux-builder.php(42): UxBuilder\Application->resolve('to-string')
+#6 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\DoShortcode.php(28): ux_builder('to-string')
+#7 C:\xampp\htdocs\vitutomedia\wp-includes\class-wp-hook.php(292): UxBuilder\Ajax\DoShortcode->do_shortcode('')
+#8 C:\xampp\htdocs\vitutomedia\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#9 C:\xampp\htdocs\vitutomedia\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\vitutomedia\wp-includes\template-loader.php(13): do_action('template_redire...')
+#11 C:\xampp\htdocs\vitutomedia\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\vitutomedia\index.php(17): require('C:\\xampp\\htdocs...')
+#13 {main}
+  thrown in C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php on line 102
+
+2021-03-16T08:49:21+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php:102
+Stack trace:
+#0 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php(102): method_exists(NULL, 'getName')
+#1 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php(80): UxBuilder\Services\Container->create_with_contructor(Object(ReflectionClass))
+#2 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Application.php(55): UxBuilder\Services\Container->create('UxBuilder\\Trans...')
+#3 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php(43): UxBuilder\Application->UxBuilder\{closure}(Object(UxBuilder\Services\Container))
+#4 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Application.php(94): UxBuilder\Services\Container->resolve('to-string')
+#5 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\ux-builder.php(42): UxBuilder\Application->resolve('to-string')
+#6 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\DoShortcode.php(28): ux_builder('to-string')
+#7 C:\xampp\htdocs\vitutomedia\wp-includes\class-wp-hook.php(292): UxBuilder\Ajax\DoShortcode->do_shortcode('')
+#8 C:\xampp\htdocs\vitutomedia\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#9 C:\xampp\htdocs\vitutomedia\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\vitutomedia\wp-includes\template-loader.php(13): do_action('template_redire...')
+#11 C:\xampp\htdocs\vitutomedia\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\vitutomedia\index.php(17): require('C:\\xampp\\htdocs...')
+#13 {main}
+  thrown in C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php on line 102
+
+2021-03-16T08:49:22+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php:102
+Stack trace:
+#0 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php(102): method_exists(NULL, 'getName')
+#1 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php(80): UxBuilder\Services\Container->create_with_contructor(Object(ReflectionClass))
+#2 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Application.php(55): UxBuilder\Services\Container->create('UxBuilder\\Trans...')
+#3 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php(43): UxBuilder\Application->UxBuilder\{closure}(Object(UxBuilder\Services\Container))
+#4 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Application.php(94): UxBuilder\Services\Container->resolve('to-string')
+#5 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\ux-builder.php(42): UxBuilder\Application->resolve('to-string')
+#6 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\DoShortcode.php(28): ux_builder('to-string')
+#7 C:\xampp\htdocs\vitutomedia\wp-includes\class-wp-hook.php(292): UxBuilder\Ajax\DoShortcode->do_shortcode('')
+#8 C:\xampp\htdocs\vitutomedia\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#9 C:\xampp\htdocs\vitutomedia\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\vitutomedia\wp-includes\template-loader.php(13): do_action('template_redire...')
+#11 C:\xampp\htdocs\vitutomedia\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\vitutomedia\index.php(17): require('C:\\xampp\\htdocs...')
+#13 {main}
+  thrown in C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php on line 102
+
+2021-03-16T08:49:26+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php:102
+Stack trace:
+#0 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php(102): method_exists(NULL, 'getName')
+#1 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php(80): UxBuilder\Services\Container->create_with_contructor(Object(ReflectionClass))
+#2 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Application.php(55): UxBuilder\Services\Container->create('UxBuilder\\Trans...')
+#3 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php(43): UxBuilder\Application->UxBuilder\{closure}(Object(UxBuilder\Services\Container))
+#4 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Application.php(94): UxBuilder\Services\Container->resolve('to-string')
+#5 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\ux-builder.php(42): UxBuilder\Application->resolve('to-string')
+#6 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\DoShortcode.php(28): ux_builder('to-string')
+#7 C:\xampp\htdocs\vitutomedia\wp-includes\class-wp-hook.php(292): UxBuilder\Ajax\DoShortcode->do_shortcode('')
+#8 C:\xampp\htdocs\vitutomedia\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#9 C:\xampp\htdocs\vitutomedia\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\vitutomedia\wp-includes\template-loader.php(13): do_action('template_redire...')
+#11 C:\xampp\htdocs\vitutomedia\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\vitutomedia\index.php(17): require('C:\\xampp\\htdocs...')
+#13 {main}
+  thrown in C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php on line 102
+
+2021-03-16T08:49:26+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php:102
+Stack trace:
+#0 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php(102): method_exists(NULL, 'getName')
+#1 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php(80): UxBuilder\Services\Container->create_with_contructor(Object(ReflectionClass))
+#2 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Application.php(55): UxBuilder\Services\Container->create('UxBuilder\\Trans...')
+#3 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php(43): UxBuilder\Application->UxBuilder\{closure}(Object(UxBuilder\Services\Container))
+#4 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Application.php(94): UxBuilder\Services\Container->resolve('to-string')
+#5 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\ux-builder.php(42): UxBuilder\Application->resolve('to-string')
+#6 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\DoShortcode.php(28): ux_builder('to-string')
+#7 C:\xampp\htdocs\vitutomedia\wp-includes\class-wp-hook.php(292): UxBuilder\Ajax\DoShortcode->do_shortcode('')
+#8 C:\xampp\htdocs\vitutomedia\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#9 C:\xampp\htdocs\vitutomedia\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\vitutomedia\wp-includes\template-loader.php(13): do_action('template_redire...')
+#11 C:\xampp\htdocs\vitutomedia\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\vitutomedia\index.php(17): require('C:\\xampp\\htdocs...')
+#13 {main}
+  thrown in C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php on line 102
+
+2021-03-16T08:49:26+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php:102
+Stack trace:
+#0 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php(102): method_exists(NULL, 'getName')
+#1 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php(80): UxBuilder\Services\Container->create_with_contructor(Object(ReflectionClass))
+#2 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Application.php(55): UxBuilder\Services\Container->create('UxBuilder\\Trans...')
+#3 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php(43): UxBuilder\Application->UxBuilder\{closure}(Object(UxBuilder\Services\Container))
+#4 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Application.php(94): UxBuilder\Services\Container->resolve('to-string')
+#5 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\ux-builder.php(42): UxBuilder\Application->resolve('to-string')
+#6 C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\DoShortcode.php(28): ux_builder('to-string')
+#7 C:\xampp\htdocs\vitutomedia\wp-includes\class-wp-hook.php(292): UxBuilder\Ajax\DoShortcode->do_shortcode('')
+#8 C:\xampp\htdocs\vitutomedia\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#9 C:\xampp\htdocs\vitutomedia\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\vitutomedia\wp-includes\template-loader.php(13): do_action('template_redire...')
+#11 C:\xampp\htdocs\vitutomedia\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\vitutomedia\index.php(17): require('C:\\xampp\\htdocs...')
+#13 {main}
+  thrown in C:\xampp\htdocs\vitutomedia\wp-content\themes\flatsome\inc\builder\core\server\src\Services\Container.php on line 102
+

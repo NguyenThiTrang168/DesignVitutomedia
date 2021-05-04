@@ -1,0 +1,69 @@
+2021-04-27T02:22:11+00:00 CRITICAL Array and string offset access syntax with curly braces is no longer supported in C:\xampp\htdocs\danaco\wp-content\plugins\wp-all-export-pro\classes\PHPExcel\Shared\String.php on line 526
+
+2021-04-27T02:22:21+00:00 CRITICAL Array and string offset access syntax with curly braces is no longer supported in C:\xampp\htdocs\danaco\wp-content\plugins\wp-all-export-pro\classes\PHPExcel\Shared\String.php on line 526
+
+2021-04-27T02:27:47+00:00 CRITICAL Array and string offset access syntax with curly braces is no longer supported in C:\xampp\htdocs\danaco\wp-content\plugins\wp-all-export-pro\classes\PHPExcel\Shared\String.php on line 526
+
+2021-04-27T02:31:21+00:00 CRITICAL Uncaught TypeError: strtolower(): Argument #1 ($string) must be of type string, array given in C:\xampp\htdocs\danaco\wp-includes\formatting.php:2140
+Stack trace:
+#0 C:\xampp\htdocs\danaco\wp-includes\formatting.php(2140): strtolower(Array)
+#1 [internal function]: sanitize_key(Array)
+#2 C:\xampp\htdocs\danaco\wp-includes\class-wp-query.php(1054): array_map('sanitize_key', Array)
+#3 C:\xampp\htdocs\danaco\wp-includes\class-wp-query.php(1771): WP_Query->parse_query()
+#4 C:\xampp\htdocs\danaco\wp-includes\class-wp-query.php(3465): WP_Query->get_posts()
+#5 C:\xampp\htdocs\danaco\wp-includes\class-wp-query.php(3576): WP_Query->query(Array)
+#6 C:\xampp\htdocs\danaco\wp-content\plugins\simple-csv-xls-exporter\includes\settings.php(50): WP_Query->__construct(Array)
+#7 C:\xampp\htdocs\danaco\wp-content\plugins\simple-csv-xls-exporter\classes\simple-csv-exporter-settings.php(291): generate_std_fields(false, Array)
+#8 C:\xampp\htdocs\danaco\wp-admin\includes\template.php(1737): Simple_CSV_Exporter_Settings->settings_field_select_std_fields(Array)
+#9 C:\xampp\htdocs\danaco\wp-admin\includes\template.php(1695): do_settings_fields('Simple_CSV_Expo...', 'simple_csv_expo...')
+#10 C:\xampp\htdocs\danaco\wp-content\plugins\simple-csv-xls-exporter\classes\simple-csv-exporter-settings.php(549): do_settings_sections('Simple_CSV_Expo...')
+#11 C:\xampp\htdocs\danaco\wp-includes\class-wp-hook.php(292): Simple_CSV_Exporter_Settings->plugin_settings_page('')
+#12 C:\xampp\htdocs\danaco\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\danaco\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\danaco\wp-admin\admin.php(259): do_action('tools_page_Simp...')
+#15 C:\xampp\htdocs\danaco\wp-admin\tools.php(40): require_once('C:\\xampp\\htdocs...')
+#16 {main}
+  thrown in C:\xampp\htdocs\danaco\wp-includes\formatting.php on line 2140
+
+2021-04-27T02:32:59+00:00 CRITICAL Uncaught TypeError: strtolower(): Argument #1 ($string) must be of type string, array given in C:\xampp\htdocs\danaco\wp-includes\formatting.php:2140
+Stack trace:
+#0 C:\xampp\htdocs\danaco\wp-includes\formatting.php(2140): strtolower(Array)
+#1 [internal function]: sanitize_key(Array)
+#2 C:\xampp\htdocs\danaco\wp-includes\class-wp-query.php(1054): array_map('sanitize_key', Array)
+#3 C:\xampp\htdocs\danaco\wp-includes\class-wp-query.php(1771): WP_Query->parse_query()
+#4 C:\xampp\htdocs\danaco\wp-includes\class-wp-query.php(3465): WP_Query->get_posts()
+#5 C:\xampp\htdocs\danaco\wp-includes\class-wp-query.php(3576): WP_Query->query(Array)
+#6 C:\xampp\htdocs\danaco\wp-content\plugins\simple-csv-xls-exporter\includes\settings.php(50): WP_Query->__construct(Array)
+#7 C:\xampp\htdocs\danaco\wp-content\plugins\simple-csv-xls-exporter\classes\simple-csv-exporter-settings.php(291): generate_std_fields(false, Array)
+#8 C:\xampp\htdocs\danaco\wp-admin\includes\template.php(1737): Simple_CSV_Exporter_Settings->settings_field_select_std_fields(Array)
+#9 C:\xampp\htdocs\danaco\wp-admin\includes\template.php(1695): do_settings_fields('Simple_CSV_Expo...', 'simple_csv_expo...')
+#10 C:\xampp\htdocs\danaco\wp-content\plugins\simple-csv-xls-exporter\classes\simple-csv-exporter-settings.php(549): do_settings_sections('Simple_CSV_Expo...')
+#11 C:\xampp\htdocs\danaco\wp-includes\class-wp-hook.php(292): Simple_CSV_Exporter_Settings->plugin_settings_page('')
+#12 C:\xampp\htdocs\danaco\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\danaco\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\danaco\wp-admin\admin.php(259): do_action('tools_page_Simp...')
+#15 C:\xampp\htdocs\danaco\wp-admin\tools.php(40): require_once('C:\\xampp\\htdocs...')
+#16 {main}
+  thrown in C:\xampp\htdocs\danaco\wp-includes\formatting.php on line 2140
+
+2021-04-27T02:33:12+00:00 CRITICAL Uncaught TypeError: strtolower(): Argument #1 ($string) must be of type string, array given in C:\xampp\htdocs\danaco\wp-includes\formatting.php:2140
+Stack trace:
+#0 C:\xampp\htdocs\danaco\wp-includes\formatting.php(2140): strtolower(Array)
+#1 [internal function]: sanitize_key(Array)
+#2 C:\xampp\htdocs\danaco\wp-includes\class-wp-query.php(1054): array_map('sanitize_key', Array)
+#3 C:\xampp\htdocs\danaco\wp-includes\class-wp-query.php(1771): WP_Query->parse_query()
+#4 C:\xampp\htdocs\danaco\wp-includes\class-wp-query.php(3465): WP_Query->get_posts()
+#5 C:\xampp\htdocs\danaco\wp-includes\class-wp-query.php(3576): WP_Query->query(Array)
+#6 C:\xampp\htdocs\danaco\wp-content\plugins\simple-csv-xls-exporter\includes\settings.php(50): WP_Query->__construct(Array)
+#7 C:\xampp\htdocs\danaco\wp-content\plugins\simple-csv-xls-exporter\classes\simple-csv-exporter-settings.php(291): generate_std_fields(false, Array)
+#8 C:\xampp\htdocs\danaco\wp-admin\includes\template.php(1737): Simple_CSV_Exporter_Settings->settings_field_select_std_fields(Array)
+#9 C:\xampp\htdocs\danaco\wp-admin\includes\template.php(1695): do_settings_fields('Simple_CSV_Expo...', 'simple_csv_expo...')
+#10 C:\xampp\htdocs\danaco\wp-content\plugins\simple-csv-xls-exporter\classes\simple-csv-exporter-settings.php(549): do_settings_sections('Simple_CSV_Expo...')
+#11 C:\xampp\htdocs\danaco\wp-includes\class-wp-hook.php(292): Simple_CSV_Exporter_Settings->plugin_settings_page('')
+#12 C:\xampp\htdocs\danaco\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\danaco\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\danaco\wp-admin\admin.php(259): do_action('tools_page_Simp...')
+#15 C:\xampp\htdocs\danaco\wp-admin\tools.php(40): require_once('C:\\xampp\\htdocs...')
+#16 {main}
+  thrown in C:\xampp\htdocs\danaco\wp-includes\formatting.php on line 2140
+

@@ -1,0 +1,2 @@
+2021-04-12T01:04:45+00:00 CRITICAL require(): Failed opening required '/var/www/vhosts/vitutomedia.com/design.vitutomedia.com/wp-content/plugins/woocommerce/includes/rest-api/Server.php' (include_path='.:/opt/plesk/php/7.4/share/pear') in /var/www/vhosts/vitutomedia.com/design.vitutomedia.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 87
+
